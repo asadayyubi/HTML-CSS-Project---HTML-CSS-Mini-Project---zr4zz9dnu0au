@@ -1,37 +1,192 @@
-## Welcome to GitHub Pages
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-link" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisi, neque, dignissimos corrupti laboriosam unde et modi exercitationem.<br> Adipisci quos nihil totam dolorkjr eehkejnf  quia!</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
 
-You can use the [editor on GitHub](https://github.com/asadayyubi/HTML-CSS-Project---HTML-CSS-Mini-Project---zr4zz9dnu0au/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    </section>
 
-### Markdown
+    <!-- ====================course===================== -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit lflskj lsdfjeeef lkjljf f;fihifdnn dkkdd fj.</p>
 
-```markdown
-Syntax highlighted code block
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores tempore libero
+                    totam, eos atque, eaque dolor recusandae architecto veritatis
+                    nisi soluta natus enim magnam pariatur iste. Eligendi, minima! Temporibus!</p>
+            </div>
 
-# Header 1
-## Header 2
-### Header 3
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores tempore libero
+                    totam, eos atque, eaque dolor recusandae architecto veritatis
+                    nisi soluta natus enim magnam pariatur iste. Eligendi, minima! Temporibus!</p>
+            </div>
 
-- Bulleted
-- List
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores tempore libero
+                    totam, eos atque, eaque dolor recusandae architecto veritatis
+                    nisi soluta natus enim magnam pariatur iste. Eligendi, minima! Temporibus!</p>
+            </div>
+        </div>
+    </section>
+<!-- ================ Campus =================== -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
 
-1. Numbered
-2. List
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="london">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="london">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="london">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
-**Bold** and _Italic_ and `Code` text
+    <!-- ========== facilities ================= -->
 
-[Link](url) and ![Image](src)
-```
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
+            </div>
 
-### Jekyll Themes
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asadayyubi/HTML-CSS-Project---HTML-CSS-Mini-Project---zr4zz9dnu0au/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
+            </div>
+        </div>
+    </section>
 
-### Support or Contact
+    <!-- ================testimonials================ -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <section class="testimonial">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor consectetur adipisicing elit.  atque!</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Fuga odit consequuntur enim ratione, repudiandae ullam tempore 
+                        nobis eaque quam iusto nulla unde veritatis ipsam impedit est esse
+                        error nostrum optio.</p>
+                        <h3>Irfan Parwez</h3>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Fuga odit consequuntur enim ratione, repudiandae ullam tempore 
+                        nobis eaque quam iusto nulla unde veritatis ipsam impedit est esse
+                        error nostrum optio.</p>
+                        <h3>Asad Ayyubi</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Courses<br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- =================== Footer=========== -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis libero <br>
+            doloremque porro assumenda voluptatum? Officiis beatae enim eligendi? Vitae,<br> excepturi ipsam accusamus esse delectus architecto ex harum illum aliquid eum.</p>
+
+            <div class="icons">
+                <i class="fa fa-brands fa-twitter"></i>
+                <i class="fa fa-brands fa-facebook"></i>
+                <i class="fa fa-brands fa-instagram"></i>
+                <i class="fa fa-brands fa-linkedin"></i>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- //------------------------script--------------// -->
+    <script src="App.js"></script>
+</body>
+</html>
